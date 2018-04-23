@@ -1,0 +1,108 @@
+
+
+/* Navbar */
+
+
+#mainNav {
+    padding: 0rem;
+    background-color: #abaaaa !important;
+    border-bottom: solid 1px black;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+  color: #258AFF;
+}
+
+  #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+    color: #fff;
+    background: #258AFF !important;
+  }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
+    color: #fff;
+    background: #258AFF !important;
+  }
+
+/* Header */ 
+
+.banner {
+    background-image: url(../img/banner3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:  -webkit-fill-available;
+}
+
+.banner h1 , .banner h2 {
+    color: #258AFF;
+}
+
+.banner h1 {
+    padding: 1rem;
+}
+
+.hidden {
+    display: none;
+    background-color: #abaaaa96;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+
+/* Portfolio */
+
+#portfolio {
+    background-color: #abaaaa;
+}
+
+#portfolio h2 {
+ padding-bottom:  2rem;
+ color: #258AFF !important;
+}
+
+#portfolio p {
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+.portfolio .portfolio-item .portfolio-item-caption {
+    background-color: #258AFF;
+}
+
+
+.portfolio-box img {
+    width: 100%;
+    height: 15rem;
+}
+
+/*About */
+
+#about {
+    background-color: #258AFF !important;
+}
+
+#about h2 {
+    padding-bottom: 2rem;
+}
+
+
+/* Contact */ 
+
+#contact {
+    background-color:  #258AFF;
+}
+
+.portait {
+    width: 15rem;
+    height: 15rem;
+}
+
+
+/* footer  */
+
+.footer {
+    background-color:  #abaaaa ;
+}
+
+.copyright {
+    background-color:  #258AFF ;
+}
