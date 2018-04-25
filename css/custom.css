@@ -22,6 +22,13 @@
     background: #258AFF !important;
   }
 
+@media (max-width: 992px) {
+    #mainmenu {
+        margin-left: 0;
+        margin-left: 0;
+    }
+}
+
 /* Header */ 
 
 .banner {
@@ -92,6 +99,14 @@
     height: 15rem;
 }
 
+.portfolio-modal .portfolio-modal-dialog {
+    background-color: #abaaaa !important;
+}
+
+.portfolio-modal .portfolio-modal-dialog .close-button i {
+  color: white;
+}
+
 /*About */
 
 #about {
@@ -109,26 +124,42 @@
     background-color:  #258AFF;
 }
 
+#contact h2, #contact i, #contact h3 {
+    color: white !important;
+}
+
 .portait {
     width: 15rem;
     height: 15rem;
 }
 
+.greybtn {
+    background-color:  #abaaaa !important; 
+}
 
 /* footer  */
 
 .footer {
-    background-color:  #abaaaa ;
+    background-color:  #258AFF ;
     padding-bottom: 2rem;
     padding-top: 2rem;
 }
 
 .copyright {
-    background-color:  #258AFF ;
+    background-color:  #abaaaa ;
 }
 
 .btn {
   border-width: 5px;
-  padding: 2rem;
+  padding: 0.5rem;
 }
 
+.btn-primary {
+  background-color: #258AFF;
+  border-color: #258AFF;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  background-color: #128f76;
+  border-color: #128f76;
+}

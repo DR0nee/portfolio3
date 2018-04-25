@@ -32,11 +32,11 @@
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
-      <div class="container">
+      <div class="container mr-0" id="mainmenu" > 
     <!--    <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a> -->
-        <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
-          <i class="fa fa-bars"></i>
+        <button class="navbar-toggler navbar-toggler-right text-uppercase text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          
+          <i class="fa fa-bars fa-2x"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
@@ -47,7 +47,7 @@
               <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Get in Touch</a>
             </li>
           </ul>
         </div>
@@ -172,14 +172,22 @@
       
       
     <!-- Contact Section -->
-    <section id="contact">
+    <section class="pb-5" id="contact">
       <div class="container">
-        <h2 class="text-center text-uppercase text-secondary mb-0">Contact Me</h2>
-        <hr class="star-dark mb-5">
+        <h2 class="text-center text-uppercase text-secondary mb-5">Get in Touch</h2>
         <div class="row">
+         <div class="col-lg-6 d-flex align-items-center justify-content-center">
+            <h5 class="text-white  mt-">For further inquiries about me, my work, or anything else, hit me up! </h5>
+         </div>
+         <div class="col-lg-6">
+        <p class="text-center"><i class="fa fa-envelope-square fa-5x"></i></p>
+        <h3 class="text-center">tkristof88@gmail.com</h3>            
+         </div>
+      </div>
+   <!--     <div class="row">
           <div class="col-lg-8 mx-auto">
-            <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-            <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
+            <!-- To configur the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+            <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. --><!--
             <form name="sentMessage" id="contactForm" novalidate="novalidate">
               <div class="control-group">
                 <div class="form-group floating-label-form-group controls mb-0 pb-2">
@@ -212,12 +220,13 @@
               <br>
               <div id="success"></div>
               <div class="form-group">
-                <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton">Send</button>
+                <button type="submit" class="btn greybtn btn-xl" id="sendMessageButton">Send</button>
               </div>
             </form>
           </div>
         </div>
       </div>
+    -->
     </section>
 
     <!-- Footer -->
@@ -276,11 +285,11 @@
         <div class="container text-center">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">JumpStart</h2>
-              <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/jumpbig.PNG" alt="">
-              <p class="mb-5">responsive landing page for a crowd-sourcing website. Beautiful, professional, animated web page that draws users' eyes to important information and creates an engaging user experience.(Bootstrap Javascript)<br><a href="https://dr0nee.github.io/jumpstart/"  target="_blank">Working website</a></p>
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+              <h2 class="text-secondary text-uppercase mb-2">JumpStart</h2>
+              <img class="img-fluid mb-3" src="img/portfolio/jumpbig.PNG" alt="">
+              <p class="mb-3">Responsive landing page for a crowd-sourcing website. Beautiful, professional, animated web page that draws users' eyes to important information and creates an engaging user experience.(Bootstrap Javascript)</p>
+              <a href="https://dr0nee.github.io/jumpstart/"  target="_blank" class="btn btn-primary rounded-pill btn-sm mr-5">Working website</a>
+              <a class="ml-5 btn btn-primary btn-sm rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close Project</a>
             </div>
@@ -298,11 +307,10 @@
         <div class="container text-center">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Nandiautos</h2>
-              <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/nandibig.PNG" alt="">
-              <p class="mb-5">This is my own project to my Friend father, Who needed a new website to his company. "Car Breakdown Recovery & Auto Towing Service, Jump Start, Vehicle Recovery"(Bootstrap Javascript)<br><a href="https://dr0nee.github.io/nandiautos/"  target="_blank">Working website</a></p>
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+              <h2 class="text-secondary text-uppercase mb-2">Nandiautos</h2>
+              <img class="img-fluid mb-3" src="img/portfolio/nandibig.PNG" alt="">
+              <p class="mb-3">This is my own project to my Friend father, Who needed a new website to his company. "Car Breakdown Recovery & Auto Towing Service, Jump Start, Vehicle Recovery"(Bootstrap Javascript)</p><br><a href="https://dr0nee.github.io/nandiautos/"  target="_blank" class="btn btn-primary rounded-pill btn-sm mr-5">Working website</a>
+              <a class="ml-5 btn btn-primary btn-sm rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close Project</a>
             </div>
@@ -320,11 +328,10 @@
         <div class="container text-center">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Budgets</h2>
-              <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/budgetbig.PNG" alt="">
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.(Javascript creating 3 different modul and worked them together)<br><a href="https://dr0nee.github.io/Budgets/"  target="_blank" >Working website</a></p>
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+              <h2 class="text-secondary text-uppercase mb-2">Budgets</h2>
+              <img class="img-fluid mb-3" src="img/portfolio/budgetbig.PNG" alt="">
+              <p class="mb-3">This app  allows us to add incomes and expenses in certain month, and the app then calculates how much money we made and how much we spent and then gives us a budget. Complex Javascript code with 3 different function module which  them works together.(Javascript)</p> <br><a href="https://dr0nee.github.io/Budgets/"  target="_blank" class="btn btn-primary rounded-pill btn-sm mr-5" >Working website</a>
+              <a class="ml-5 btn btn-primary btn-sm rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close Project</a>
             </div>
@@ -342,11 +349,10 @@
         <div class="container text-center">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Colmar Academy</h2>
-              <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/colmarbig.PNG" alt="">
-              <p class="mb-5">Colmar Academy You are tasked with designing and creating the landing page for a new school. You will help them by making informed design decisions about color and typography using the skills you learned last week. You will then implement your design(HTML And CSS)<br><a href="https://dr0nee.github.io/Capstone/"  target="_blank">Working website</a></p>
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+              <h2 class="text-secondary text-uppercase mb-2">Colmar Academy</h2>
+              <img class="img-fluid mb-3" src="img/portfolio/colmarbig.PNG" alt="">
+              <p class="mb-3">Colmar Academy,  Designing and creating the landing page for a new school. Making informed design decisions about color and typography (HTML And CSS)</p><br><a href="https://dr0nee.github.io/Capstone/"  target="_blank" class="btn btn-primary rounded-pill btn-sm mr-5">Working website</a>
+              <a class="ml-5 btn btn-primary btn-sm rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close Project</a>
             </div>
@@ -364,11 +370,10 @@
         <div class="container text-center">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Trackster</h2>
-              <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/trackster.PNG" alt="">
-              <p class="mb-5">This is a music search app using the MusicGraph API. Part of the Codeacademy "Build Websites from Scratch" course build a section of HTML and CSS using Bootstrap to efficiently structure the layout. Then, use JavaScript and jQuery to add functionality to that section.(Javascript and DOM)<br><a href="https://dr0nee.github.io/trackster/"  target="_blank">Working website</a></p>
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+              <h2 class="text-secondary text-uppercase mb-2">Trackster</h2>
+              <img class="img-fluid mb-3" src="img/portfolio/trackster.PNG" alt="">
+              <p class="mb-3">This is a music search app using the MusicGraph API. Part of the Codeacademy "Build Websites from Scratch" course build a section of HTML and CSS using Bootstrap to efficiently structure the layout. Then, use JavaScript and jQuery to add functionality to that section.(Javascript)</p><br><a href="https://dr0nee.github.io/trackster/"  target="_blank" class="btn btn-primary rounded-pill btn-sm mr-5">Working website</a>
+              <a class="ml-5 btn btn-primary btn-sm rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close Project</a>
             </div>
@@ -386,11 +391,10 @@
         <div class="container text-center">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Match Game</h2>
-              <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/matchbig.PNG" alt="">
-              <p class="mb-5">Card-matching game using Bootstrap, JavaScript, and jQuery.</p>
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+              <h2 class="text-secondary text-uppercase mb-2">Match Game</h2>
+              <img class="img-fluid mb-3" src="img/portfolio/matchbig.PNG" alt="">
+              <p class="mb-3">Card-matching game using Bootstrap, JavaScript, and jQuery.</p>
+              <a class="ml-5 btn btn-primary btn-sm rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close Project</a>
             </div>

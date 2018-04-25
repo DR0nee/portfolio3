@@ -245,10 +245,11 @@ header.masthead h2 {
   position: absolute;
   top: 2rem;
   right: 2rem;
+     color: white;
 }
 
 .portfolio-modal .portfolio-modal-dialog .close-button i {
-  line-height: 38px;
+  line-height: 38px; 
 }
 
 .portfolio-modal .portfolio-modal-dialog h2 {
