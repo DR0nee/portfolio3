@@ -32,7 +32,7 @@
 /* Header */ 
 
 .banner {
-    background-image: url(../img/banner4.jpg);
+    background-image: url(../img/banner3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -49,11 +49,30 @@
 
 .hidden {
     display: none;
-    background-color: #abaaaa96;
+    background-color: #abaaaa7a;;
     margin: 1rem;
     padding: 1rem;
+    width: 50%;
 }
 
+@media (max-width: 992px) {
+    .hidden {
+        margin: 2rem;
+        padding: 0.2rem;
+        width: 60%;
+        
+    }
+    
+    .hidden1 {
+        margin-top:4rem; 
+    }
+    
+    .banner h1 , .banner h2 {
+    color: white;
+}
+
+    
+}
 
 /* Portfolio */
 
@@ -155,11 +174,26 @@
 }
 
 .btn-primary {
-  background-color: #258AFF;
+  background-color: #258AFF !important;
   border-color: #258AFF;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   background-color: #128f76;
   border-color: #128f76;
+}
+
+@media (min-width: 992px) {
+    .bg-primary {
+         background-color: #258AFF !important;
+    }
+    
+    
+}
+
+@media (min-width: 400px) {
+    .portfolio-modal-dialog btn-primary {
+        margin-left: 0rem !important;
+        margin-right: 0rem !important;
+    }
 }
