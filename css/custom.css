@@ -49,7 +49,7 @@
 
 .hidden {
     display: none;
-    background-color: #abaaaa7a;;
+ /*   background-color: #abaaaa7a;*/
     margin: 1rem;
     padding: 1rem;
     width: 50%;
@@ -57,7 +57,7 @@
 
 @media (max-width: 992px) {
     .hidden {
-        margin: 2rem;
+        
         padding: 0.2rem;
         width: 60%;
         
@@ -69,11 +69,11 @@
         
     }
      .banner h2 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 } 
   
     .banner h1 , .banner h2 {
-    color: white;
+    color: #258AFF;
 }
 
     
